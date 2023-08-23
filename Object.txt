@@ -2,3 +2,48 @@
 
 ОБЪЕКТ - это набор свойств "ИМЯ: ЗНАЧЕНИЕ"
 
+Объект записывается между фигурными скобками
+
+    const myCiry = {
+        city: 'New York",
+        popular: true,
+        countryL 'USA'
+    }
+
+Получение значений свойств объкута происходит через точечную запись:
+
+    const myCiry = {
+        city: 'New York",
+        popular: true,
+        countryL 'USA'
+    }
+
+    console.log(myCity.city)   выведет 'New York'
+
+С помощью точечной замписи можно менять свойства объекта:
+
+    myCity.city = 'Las Vegas'
+
+    console.log(my.citi.city)   выведет в консоле Las Vegas
+
+Используя точечную запись можно создавать и удалять свойства объекта:
+
+        const myCity = {
+        city: 'New York',
+        popular: true,
+        country: 'USA'
+    }
+
+    delete myCity.city
+
+    myCity.name = 'Rinat'
+
+    console.log(myCity) выдаст в консоле {city: 'New York', popular: true, country: 'USA', name: 'Rinat'}
+
+Чтобы удалить надо использовать оператор удаления:
+
+delete myCity.myCity
+
+Добавлять значения свойства можно с помощью квадратныйх скобок:
+
+myCity['age'] = 18
