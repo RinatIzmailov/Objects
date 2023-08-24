@@ -1,0 +1,12 @@
+                    Методы объекта
+
+Метод - это свойство объекта, значение которого функция.
+
+const myCity = {
+    city: 'New York',
+    cityGreating: function () {
+        console.log('Greating')
+    }
+}
+
+myCity.cityGreating()   В консоле будет 'Greating'
